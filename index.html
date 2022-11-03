@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css">
+  <title>ID Card</title>
+</head>
+<body>
+  <p class="title">ID <span>Card</span></p>
+  <p class="slog">Make Your Id Card Professional</p>
+  <form>
+    <input id="idno" type="text" placeholder="ID No">
+    <input id="newName" type="email" placeholder="Name">
+    <input id="emailid" type="tel" placeholder="Phone">
+    <input id="phoneno" type="address" placeholder="Address">
+    <button id='changeNameButton'>View</button>
+    <button type="button" class="submit">Submit Data</button>
+    <button type="button" class="update">Update Data</button>
+  </form>
+  <div class="idcard">
+    <div class="id">
+      <center>
+      <img class="logo" src="logo">
+      </center>
+      <p class="org">--Organisation Name--</p>
+      <p>ID: <span id="id"></span> </p>
+      <p>Name: <span id="name"></span> </p>
+      <p>Phone: <span id="email"></span> </p>
+      <p>Address: <span id="phone"></span> </p>
+      <p>Signature</p>
+      <img class="sign" src="signature">
+    </div>
+    <center>
+      <button id='print'>Print</button>
+      </center>
+  </div>
+  <center>
+    <table>
+        <thead>
+            <tr>
+                <th class="border">ID No</th>
+                <th class="border">Name</th>
+                <th class="border">Phone</th>
+                <th class="border">Address</th>
+                <th class="border">Update</th>
+                <th class="border">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+ 
+        </tbody>
+    </table>
+    </center>
+  <script src="/script.js"></script>
+</body>
+</html>

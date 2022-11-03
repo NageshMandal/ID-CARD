@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.title{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(48, 231, 255);
+    font-family:sans-serif;
+    margin: 20px;
+    font-weight:550;
+}
+.title span{
+    color: rgb(25, 25, 25);
+    font-weight: bold;
+}
+.slog{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom:40px;
+    font-size: 12px;
+}
+.idcard{
+    margin:80px;
+}
+form{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+form input{
+    padding:12px 15px;
+    border: none;
+    background-color: #f2eee3;
+    border-radius:5px;
+    width: 25%;
+    margin:8px;
+}
+/* button{
+    margin:10px;
+    padding-right: 15px;
+    padding-left:15px;
+    cursor: pointer;
+} */
+#changeNameButton{
+    border-radius: 20px;
+    border: 1px solid #F2eee3;
+    background-color: #F2eee3;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:20px;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    border-color: rgb(0, 0, 0);
+}
+.submit{
+    border-radius: 20px;
+    border: 1px solid #F2eee3;
+    background-color: #F2eee3;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:20px;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    border-color: rgb(0, 0, 0);
+}
+.update{
+    display: none;
+    border-radius: 20px;
+    border: 1px solid #F2eee3;
+    background-color: #F2eee3;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:20px;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    border-color: rgb(0, 0, 0);
+}
+#print{
+    border-radius: 20px;
+    border: 1px solid #F2eee3;
+    background-color: #F2eee3;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:20px;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    border-color: rgb(0, 0, 0);  
+}
+.id{
+    background-color: #F2eee3;
+    border-radius: 10px;
+    margin-left:40%;
+    margin-right:40%;
+}
+.id p{
+    padding-top:15px;
+    padding-bottom:15px;
+    margin: 10px;
+    border: none;
+    font-family: sans-serif;
+}
+.id span{
+    color:rgb(63, 63, 63);
+    letter-spacing: 1px;
+    font-size:15px;
+    font-family:monospace;
+}
+.org{
+    text-align: center;
+}
+.logo{
+    margin-top:20px;
+}
+.sign{
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+table{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+table, th, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.border{
+    padding:5px 30px;
+}
+
+
+
